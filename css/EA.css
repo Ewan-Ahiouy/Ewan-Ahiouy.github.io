@@ -1,14 +1,14 @@
-.container {
+.zhuye {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
 }
- 
-.sidebar-left,
-.sidebar-right {
+
+.zhuye-left,
+.zhuye-right {
     background: rgb(255, 255, 255);
 }
- 
-.content {
+
+.zhongjian {
     grid-column: 2 / 3;
     background: rgb(255, 255, 255);
 }
