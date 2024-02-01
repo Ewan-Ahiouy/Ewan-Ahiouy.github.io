@@ -1,33 +1,63 @@
+/* 主页css样式 */
 .zhuye {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    /* 弹性布局 */
+    display: flex;
+    /* 使三个部分分隔一段距离 */
+    gap: 20px;
 }
 
-.zhuye-left,
-.zhuye-right {
-    background-color: transparent;
+/* 主页的两个侧边的样式 */
+.zhuye-cebian {
+    /* 使每个侧边占一个空间 */
+    flex: 1;
 }
 
-.zhongjian {
-    grid-column: 2 / 3;
+/* 主页中间的样式 */
+.zhuye-middle {
+    /* 是中间占三个空间 */
+    flex: 3;
 }
 
-.daohanglan {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 66px;
-    background-color: rgba(0, 0, 0, 0.3);
-    text-align: right;
-}
-
-.daohanglan a {
-    color: #000000;
-}
-
-#title {
+/* 大标题样式 */
+.title {
+    /* 放中间 */
     text-align: center;
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+    /* margin: 10px 50px; */
+    /* 加边框：5像素，点线，白色 */
+    border: 5px dotted rgb(255, 255, 255);
+}
+
+/* 布 */
+.bu {
+    position: relative;
+    height: 870px;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+/* 导航栏的位置设为固定 */
+.daohang {
+    position: fixed;
+    right: 5%;
+    font-size: 20px;
+    top: 20px;
+}
+
+/* 开始网页的大标题 */
+.btitle {
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+/* 开始大背景 */
+.bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
