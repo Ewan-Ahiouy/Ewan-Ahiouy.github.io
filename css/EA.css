@@ -22,17 +22,15 @@
 .title {
     /* 放中间 */
     text-align: center;
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    /* margin: 10px 50px; */
-    /* 加边框：5像素，点线，白色 */
-    border: 5px dotted rgb(255, 255, 255);
+    /* 加边框：5像素，虚线，黑色 */
+    border: 5px dashed rgb(0, 0, 0);
 }
 
 /* 布 */
 .bu {
     position: relative;
     height: 870px;
+    /* 透明画布 */
     background-color: rgba(255, 0, 0, 0);
 }
 
@@ -40,24 +38,48 @@
 .daohang {
     position: fixed;
     right: 5%;
+    /* 字体大小 */
     font-size: 20px;
+    /* 距离顶上的距离 */
     top: 20px;
+}
+
+/* 导航栏的<a>标签 */
+.daohang a {
+    /* 白色 */
+    color: rgb(255, 255, 255);
+    /* 取消下划线 */
+    text-decoration: none;
+    /* 设置粗细度 */
+    font-weight: bold;
 }
 
 /* 开始网页的大标题 */
 .btitle {
     font-size: 70px;
     position: absolute;
+
+    /* 使标题在中间显示 */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     color: rgb(255, 255, 255);
 }
 
 /* 开始大背景 */
 .bg {
     position: absolute;
+
+    /* 使背景在中间显示 */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* 末尾空白 */
+.None {
+    position: relative;
+    height: 500px;
+    background-color: rgba(255, 0, 0, 0);
 }
