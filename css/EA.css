@@ -31,27 +31,51 @@
     position: relative;
     height: 870px;
     /* 透明画布 */
-    background-color: rgba(255, 0, 0, 0);
+    background: rgba(255, 0, 0, 0);
 }
 
 /* 导航栏的位置设为固定 */
 .daohang {
     position: fixed;
-    right: 5%;
+    right: 3%;
     /* 字体大小 */
-    font-size: 20px;
+    font-size: 18px;
     /* 距离顶上的距离 */
-    top: 20px;
+    top: 10px;
 }
 
 /* 导航栏的<a>标签 */
 .daohang a {
     /* 白色 */
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     /* 取消下划线 */
     text-decoration: none;
     /* 设置粗细度 */
     font-weight: bold;
+}
+
+/* 导航栏背景布 */
+.daohangbg {
+    /* 固定 */
+    position: fixed;
+    /* 长度为百分百 */
+    width: 100%;
+    /* 高度50像素 */
+    height: 45px;
+    /* 位置在网页头顶 */
+    top: 0%;
+    left: 0%;
+    /* 背景淡青色 */
+    background: rgba(0, 255, 255, 0.3);
+}
+
+/* 导航栏左标题 */
+.daohangbg h2 {
+    color: rgb(0, 0, 0);
+    /* 距离顶上7像素 */
+    margin-top: 7px;
+    /* 距离左边20像素 */
+    margin-left: 50px;
 }
 
 /* 开始网页的大标题 */
