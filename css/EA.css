@@ -26,14 +26,6 @@
     border: 5px dashed rgb(0, 0, 0);
 }
 
-/* 布 */
-.bu {
-    position: relative;
-    height: 870px;
-    /* 透明画布 */
-    background: rgba(255, 0, 0, 0);
-}
-
 /* 导航栏的位置设为固定 */
 .daohang {
     position: fixed;
@@ -92,14 +84,13 @@
 }
 
 /* 开始大背景 */
-.bg {
-    position: absolute;
+/* .bg { */
+    /* position: absolute; */
 
     /* 使背景在中间显示 */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    /* top: 0px; */
+    /* left: 0%; */
+/* } */
 
 /* 末尾空白 */
 .None {
