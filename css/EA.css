@@ -72,7 +72,7 @@
 
 /* 开始网页的大标题 */
 .btitle {
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
 
     /* 使标题在中间显示 */
@@ -83,18 +83,18 @@
     color: rgb(255, 255, 255);
 }
 
-/* 开始大背景 */
-/* .bg { */
-    /* position: absolute; */
-
-    /* 使背景在中间显示 */
-    /* top: 0px; */
-    /* left: 0%; */
-/* } */
-
 /* 末尾空白 */
 .None {
     position: relative;
     height: 514px;
     background-color: rgba(255, 0, 0, 0);
+}
+
+/* 声明 */
+.shengMing {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
 }
