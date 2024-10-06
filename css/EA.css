@@ -81,6 +81,20 @@
     transform: translate(-50%, -50%);
 
     color: rgb(255, 255, 255);
+    animation: bbbtitle 2s linear 0s infinite normal;
+}
+
+/* 给大标题整个动画 */
+@keyframes bbbtitle {
+    0% {
+        color: rgb(255, 255, 255);
+    }
+    50% {
+        color: rgb(0, 0, 0);
+    }
+    100% {
+        color: rgb(255, 255, 255);
+    }
 }
 
 /* 末尾空白 */
