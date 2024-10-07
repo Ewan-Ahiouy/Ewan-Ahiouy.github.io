@@ -112,3 +112,48 @@
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
 }
+
+/* 文章指引 */
+.articles {
+    /* 弹性布局 */
+    display: flex;
+    /* 水平居中 */
+    justify-content: center;
+    /* 垂直居中 */
+    align-items: center;
+    /* 文字阴影 */
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    /* 宽度沾满 */
+    width: 100%;
+    /* 高度设置 */
+    height: 60px;
+    /* 背景颜色 */
+    background-color: rgba(0, 0, 255, 0.5);
+    /* 圆角 */
+    border-radius: 10px;
+    /* box阴影 */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 指引内的链接 */
+.articles a {
+    /* 颜色 */
+    color: white;
+    /* 大小 */
+    font-size: 30px;
+    /* 相对定位 */
+    position: relative;
+    /* 取消下划线 */
+    text-decoration: none;
+    /* 设置粗细度 */
+    font-weight: bold;
+}
+
+.articles a:hover {
+    color: rgb(255, 255, 0);
+}
+
+body {
+    /* 去除默认边距 */
+    margin: 0px;
+}
