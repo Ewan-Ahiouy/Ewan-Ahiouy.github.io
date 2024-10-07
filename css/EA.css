@@ -133,6 +133,8 @@
     border-radius: 10px;
     /* box阴影 */
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    /* 设置一下间隔 */
+    margin: 20px;
 }
 
 /* 指引内的链接 */
